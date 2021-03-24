@@ -1,0 +1,18 @@
+div  {
+    height: 450px;
+    width: auto;
+    border: 2px solid;
+    width: 300px;
+    position: relative ;
+    display:flex;
+}
+
+.div1 {
+   height: 75px;
+   width: 1300px;
+   position: absolute;
+}
+.div2 {
+    margin-top: 83px;
+    width: 1300px;
+}

@@ -1,27 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
+    font-family: 'Dosis', sans-serif;
     background-color: rgba(208, 243, 255, 0.8);
 }
 
+.navbar {
+    background-color: rgb(169, 1, 202);
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    float: right;
+    width: 70vw;
+    border-radius: 23px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 8px saddlebrown, 10px 10px 8px slateblue ;
+    z-index: 1;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+}
 div  {
     height: 100vh;
     width: 100vw;
-    margin: 0.7rem auto;
     border-start-start-radius: 25px;
     border-end-end-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+    box-shadow: 2px 4px 10px 4px rgb(18, 13, 34);
     text-align: center;
 }
 
 .div1 {
-   height: 14vh;
+   height: 80vh;
    width: 95vw;
    margin-top: 0;
    left: 0;
-   position: sticky;
-   position: -webkit-sticky;
    background-color: rgb(21, 17, 255);
    
    
@@ -43,8 +63,8 @@ div  {
     width: 95vw;background-color: rgb(153, 230, 255);
 }
 .logo-img {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 .logo-div {
     width: 10vw;
@@ -52,4 +72,5 @@ div  {
     border-radius: 0;
     box-shadow: none;
     position: absolute;
+    border: 2px solid black;
 }

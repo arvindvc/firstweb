@@ -1,13 +1,14 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 152, 202, 0.8);
+    background-color: rgba(208, 243, 255, 0.8);
 }
 
 div  {
     height: 100vh;
     width: 100vw;
-    margin: 8px auto;
+    margin: 0.7rem auto;
     border-start-start-radius: 25px;
     border-end-end-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
@@ -18,9 +19,10 @@ div  {
    height: 14vh;
    width: 95vw;
    margin-top: 0;
+   left: 0;
    position: sticky;
    position: -webkit-sticky;
-   background-color: rgb(153, 230, 255);
+   background-color: rgb(21, 17, 255);
    
    
 }
@@ -45,9 +47,9 @@ div  {
     height: 100%;
 }
 .logo-div {
+    width: 10vw;
+    height: 10vh;
     border-radius: 0;
     box-shadow: none;
     position: absolute;
-    top: 0;
-    left: 0;
 }
